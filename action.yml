@@ -1,6 +1,6 @@
-name: 'Github MergeTag'
+name: 'Github MergeTag SeracTech'
 description: 'Tags merge commits with branch name'
-author: 'Planet'
+author: 'SeracTech'
 inputs:
   branch:
     description: 'The head branch of the pull request'
