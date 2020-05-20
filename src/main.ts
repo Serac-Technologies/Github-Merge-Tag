@@ -1,7 +1,7 @@
 import * as core from '@actions/core'
 import { GitHub, context } from '@actions/github'
 
-const BRANCH_REGEX = /(?:feature|hotfix)\/PM-(?:[0-9]+)/
+const BRANCH_REGEX = /(?:feature|hotfix|bugfix)\/ST-(?:[0-9]+)/
 
 async function run(): Promise<void> {
   try {
